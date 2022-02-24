@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeniorOS</title>
+    <link rel="icon" type="image/x-icon" href="../cat.png">
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+    <header>
+        <center>
+            <img src="../logo.png" alt="" height="100px" width="250px">
+        </center>
+        <div id="link-section">
+            <a href="../index.html">Forside</a>
+            <a href="../info/info.html">Information</a>
+            <a href="../help/help.html">Hjælp</a>
+            <a href="">Køb</a>
+        </div>
+    </header>
+
+    <div id="content">
+        <div id="buy-section">
+            <div id="input-section">
+                <input type="text" placeholder="Fornavn" onkeypress="clear_border(this)">
+                <input type="text" placeholder="Efternavn" onkeypress="clear_border(this)">
+                <input type="text" placeholder="E-mail" onkeypress="clear_border(this)">
+                <input type="text" placeholder="Telefon nummer" onkeypress="clear_border(this)">
+                <input type="text" placeholder="Adresse" onkeypress="clear_border(this)">
+            </div>
+
+            <div id="button-section">
+                <h1>Pris: 399kr</h1>
+                <!input type="button" value=" Bestil" onclick="buy()"!>
+                <button onclick="buy()">Bestil</button>
+            </div>
+        </div>
+        <div id="text-section">
+            <h1>Du får:</h1>
+            <ul>
+                <li>En disk med et computer system der er nemt at bruge og finde rundt i.</li>
+                <li>Adgang til vores support hold der vil hjælpe dig med alle dine computer problemer.</li>
+            </ul>
+        </div>
+       
+    </div>
+
+    <audio id="audio" src="../klikher.mp3"></audio>
+
+    <footer>
+        <p>SeniorOs | Jagtvej 2 | 4700 Næstved | TLF: 50 20 04 88</p>
+        <p>Kontakt | Privatlivspolitik</p>
+        <p>Copyright 1996-2022 af SeniorOs A/S. Alle retigheder reseveret</p>
+    </footer>
+
+    <script src="../forside.js"></script>
+    <script src="buy.js"></script>
+</body>
+</html>
